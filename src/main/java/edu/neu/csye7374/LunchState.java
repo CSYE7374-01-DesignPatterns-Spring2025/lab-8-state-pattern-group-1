@@ -9,6 +9,7 @@ public class LunchState implements RestaurantState {
         this.menuItems = menuItems;
     }
 
+    
     @Override
     public void displayMenu() {
         System.out.println("===== LUNCH MENU =====");
