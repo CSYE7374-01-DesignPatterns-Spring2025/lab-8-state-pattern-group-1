@@ -8,7 +8,7 @@ public class DinnerState implements RestaurantState {
     public DinnerState(List<MenuItem> menuItems) {
         this.menuItems = menuItems;
     }
-
+// Adding comments and changes
     @Override
     public void displayMenu() {
         System.out.println("===== DINNER MENU =====");
