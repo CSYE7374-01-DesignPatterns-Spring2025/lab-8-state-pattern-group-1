@@ -24,7 +24,7 @@ public class Test {
         RestaurantState dinnerState = new DinnerState(dinnerMenuItems);
 
         List<MenuItem> barMenuItems = new ArrayList<>();
-        barMenuItems.add(new MenuItem(1, "Beer", 5.99, "beer"));
+        barMenuItems.add(new MenuItem(1, "Beer ", 5.99, "beer"));
         barMenuItems.add(new MenuItem(2, "Cocktail", 8.99, "cocktail"));
         barMenuItems.add(new MenuItem(3, "Wine", 7.99, "wine"));
         barMenuItems.add(new MenuItem(4, "Appetizer Platter", 9.99, "appetizer platter"));
